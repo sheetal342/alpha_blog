@@ -1,0 +1,16 @@
+current directory: /home/sheetal/Desktop/rails_projects_2024/rails_7_projects/alpha-blog/vendor/bundle/ruby/3.0.0/gems/debug-1.9.1/ext/debug
+/usr/bin/ruby3.0 -I /usr/local/lib/site_ruby/3.0.0 -r ./siteconf20240118-389554-2zpbdw.rb extconf.rb
+creating Makefile
+
+current directory: /home/sheetal/Desktop/rails_projects_2024/rails_7_projects/alpha-blog/vendor/bundle/ruby/3.0.0/gems/debug-1.9.1/ext/debug
+make "DESTDIR=" clean
+
+current directory: /home/sheetal/Desktop/rails_projects_2024/rails_7_projects/alpha-blog/vendor/bundle/ruby/3.0.0/gems/debug-1.9.1/ext/debug
+make "DESTDIR="
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/sheetal/Desktop/rails_projects_2024/rails_7_projects/alpha-blog/vendor/bundle/ruby/3.0.0/gems/debug-1.9.1/ext/debug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20240118-389554-4xo7tu/debug
