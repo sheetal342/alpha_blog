@@ -274,6 +274,7 @@ DEPENDENCIES
   bindex (~> 0.8.1)
   bootsnap
   bootstrap (~> 5.0.1)
+  bundler (>= 2.2.0)
   capybara
   debug
   importmap-rails
