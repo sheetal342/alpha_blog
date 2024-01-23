@@ -7,11 +7,12 @@ gem "rails", "~> 7.1.2"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
-gem 'bootstrap', '~> 5.0.1'
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
 gem 'bindex', '~> 0.8.1'
+gem 'will_paginate', '~> 4.0'
+
 
 gem 'webpacker', '~> 5.x'
 # Use the Puma web server [https://github.com/puma/puma]
@@ -71,3 +72,10 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+
+gem 'bootstrap', '~> 5.0.2'
+
+gem 'jquery-rails'
+gem 'popper_js', '~> 2.11.8'
+gem 'listen', '~> 3.6'
